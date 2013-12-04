@@ -1,4 +1,4 @@
-(function(){
+jQuery(function($){
 
 	// the minimum version of jQuery we want
 	var v = "1.3.2";
@@ -26,3 +26,4 @@
 	}
 
 })();
+
