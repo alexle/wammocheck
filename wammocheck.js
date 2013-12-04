@@ -21,8 +21,7 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-         alert('hi');
-         $("#STORE_MSG").attr("style", " ");
+        	$("#STORE_MSG").attr("style", " ");
 		})();
 	}
 
