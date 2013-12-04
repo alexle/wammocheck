@@ -1,5 +1,4 @@
 jQuery(function($){
-
 	// the minimum version of jQuery we want
 	var v = "1.3.2";
 
@@ -19,9 +18,9 @@ jQuery(function($){
 		initMyBookmarklet();
 	}
 	
-	function initMyBookmarklet() {
+	function initMyBookmarklet($) {
 		(window.myBookmarklet = function() {
-        	$("#STORE_MSG").attr("style", " ");
+         jQuery("#STORE_MSG").attr("style", " ");
 		})();
 	}
 
